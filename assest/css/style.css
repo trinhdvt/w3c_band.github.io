@@ -4,25 +4,46 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Common CSS */
 html {
   font-family: Helvetica, Arial, sans-serif;
 }
+
+.text-white {
+  color: white !important;
+}
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.col-half {
+  width: 50%;
+}
+.col-third {
+  width: 33.333%;
+}
+
+/* Common CSS */
 /* 
 1. Vị trí
 2. Kích thước
 3. Màu sẵc
 4. Kiểu dáng (kiểu chữ, ...)
 */
+
+/* Main CSS */
 #main {
 }
 
 .clear {
   clear: both;
 }
-.text-white {
-  color: white !important;
-}
+
 #header {
   height: 46px;
   background-color: black;
@@ -163,8 +184,6 @@ html {
 }
 
 #content .member-item {
-  float: left;
-  width: 33.333333%;
   text-align: center;
 }
 
@@ -210,13 +229,8 @@ html {
   margin-top: -3px;
 }
 .places-list {
-  margin: 32px -8px 0px -8px;
+  margin-top: 32px;
   padding-bottom: 48px;
-}
-.place-item {
-  float: left;
-  width: 33.333%;
-  padding: 0px 8px;
 }
 .place-img {
   width: 100%;
