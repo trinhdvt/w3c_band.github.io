@@ -7,6 +7,7 @@
 /* Common CSS */
 html {
   font-family: Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .text-white {
@@ -68,7 +69,6 @@ html {
 */
 
 /* Main CSS */
-
 
 .clear {
   clear: both;
@@ -176,7 +176,6 @@ html {
 #slider .text-description {
   margin-top: 25px;
 }
-
 
 #content .content-section {
   width: 800px;
@@ -317,12 +316,37 @@ html {
   border: 1px solid #ccc;
   width: 100%;
 }
-.contact-form .form-submit-btn{
+.contact-form .form-submit-btn {
   background-color: #000;
   color: #fff;
   border: 1px solid #ccc;
   float: right;
   padding: 10px 16px;
 }
+
+.map-section img {
+  width: 100%;
+}
+
 #footer {
+  padding: 64px 16px;
+  text-align: center;
+}
+
+#footer .socials-list {
+  font-size: 24px;
+}
+
+#footer .socials-list a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+  font-size: 15px;
+  margin-top: 15px;
 }
